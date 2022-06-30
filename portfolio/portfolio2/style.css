@@ -1,0 +1,135 @@
+*{margin: 0;
+padding: 0;
+/* background-color:rgba(0, 0, 0, 0.644); */
+color:rgba(255, 0, 191, 0.74);
+background-color:rgba(0, 0, 0, 0.644);
+
+/* color:rgba(187, 27, 107, 0.74); */
+font-family: 'Red Hat Mono', monospace;
+text-align: center;}
+ /* h1{color:rgba(255, 0, 191, 0.74);}
+ h2{color:rgba(190, 13, 146, 0.74);}
+ h3{color:rgba(187, 27, 107, 0.74);} */
+.container{
+    display:flex;
+   
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    background-color:rgba(0, 0, 0, 0.644);
+    height:120vh;
+    align-items:center;
+    width:1700px;
+}
+.info{
+    height:600px;
+    width:500px;
+    align-items:center;
+    background-color:rgba(0, 0, 0, 0.644);
+}
+.pp {
+    border-radius: 50%;    
+    object-fit: cover;
+    margin: 80px;
+    height: 400px;
+    width: 400px;
+    padding: 40px;
+}
+.detail{
+    justify-content:center;
+}
+.table{
+border-collapse: collapse;
+margin: 50px;
+
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    justify-content:center ;
+}
+.c-img{
+    height: 150px; 
+    width: 150px; 
+    border-radius: 50%; 
+    object-fit: cover;
+}
+.c-list{
+    display: flex; 
+    margin: 0 80px;
+}
+.c-item{
+    padding: 80px;
+}
+.skill-para{
+    text-align: justify;}
+.skill-img {
+        float: right;
+        margin-left: 60px;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+.skill-row{
+        width: 60%;
+        margin: 120px auto;
+        text-align: left;
+    }
+.fas{
+        font-size: 15px;
+        padding: 10px;
+    }
+.golden{
+        color: goldenrod;
+    }
+
+.code-img {
+        float: left;
+        margin-right: 60px;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        object-fit: cover}
+.centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+.container1 {
+          position :relative;
+         
+          text-align: center;
+          color: rgb(221, 157, 189);
+          
+        }
+input[type=submit]{
+            background-color: rgb(255, 181, 222);
+            border: none;
+            color: rgb(19, 3, 3);
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+hr{
+            border: black;
+            border-bottom: none;
+            width: 4%;
+            margin: 30px auto;
+            background-color:rgba(0, 0, 0, 0.644);
+        }
+th, td {
+            text-align: left;
+            padding: 10px;
+        }
+        
+li{
+    background-color:rgba(0, 0, 0, 0.644); 
+}
+.bottom-container{
+    background-color:black;  
+    padding: 40px;
+}
